@@ -14,7 +14,16 @@ function App() {
           <Route index element={<Home />} />
           <Route path="*" element={<NoPage />} />
           {pages.map((page) => (
-            <Route key={page.path} path={page.path} element={page.element} />
+            <>
+              <Route key={page.path} path={page.path} element={page.element} />
+              {page.projects.map((project) => (
+                <Route
+                  key={project.name}
+                  path={project.path}
+                  element={project.element}
+                />
+              ))}
+            </>
           ))}
         </Route>
       </Routes>
