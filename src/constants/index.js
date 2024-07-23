@@ -11,6 +11,7 @@ import {
   LabCreateAGridLayout,
   LabForm,
   LabRateTheMedia,
+  ProjectPortfolio,
 } from "../pages/HTML and CSS in depth";
 import { ReactBasicsHome, Audio, CalculatorApp } from "../pages/React Basics";
 import { AdvancedReactHome } from "../pages/Advanced React";
@@ -69,6 +70,11 @@ export const pages = [
         name: "Lab: Rate The Media",
         path: "html-and-css-in-depth/lab-rate-the-media",
         element: <LabRateTheMedia />,
+      },
+      {
+        name: "Project: Portfolio",
+        path: "html-and-css-in-depth/project-portfolio",
+        element: <ProjectPortfolio />,
       },
     ],
   },
