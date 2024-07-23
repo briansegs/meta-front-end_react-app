@@ -12,7 +12,7 @@ import {
   LabForm,
   LabRateTheMedia,
 } from "../pages/HTML and CSS in depth";
-import { ReactBasicsHome } from "../pages/React Basics";
+import { ReactBasicsHome, Audio } from "../pages/React Basics";
 import { AdvancedReactHome } from "../pages/Advanced React";
 
 export const pages = [
@@ -76,7 +76,13 @@ export const pages = [
     name: "React Basics",
     path: "react-basics",
     element: <ReactBasicsHome />,
-    projects: [],
+    projects: [
+      {
+        name: "Audio",
+        path: "react-basics/audio",
+        element: <Audio />,
+      },
+    ],
   },
   {
     name: "Advanced React",
