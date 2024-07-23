@@ -3,13 +3,13 @@ import {
   Assignment1,
   Assignment2,
   Assignment3,
-  Assignment4,
-  Assignment5,
-  Assignment6,
 } from "../pages/Introduction to Front-End Development";
 import { ProWJavaScriptHome } from "../pages/Programming with JavaScript";
 import { VersionControlHome } from "../pages/Version Control";
-import { HtmlCssHome } from "../pages/HTML and CSS in depth";
+import {
+  HtmlCssHome,
+  LabCreateAGridLayout,
+} from "../pages/HTML and CSS in depth";
 import { ReactBasicsHome } from "../pages/React Basics";
 import { AdvancedReactHome } from "../pages/Advanced React";
 
@@ -34,21 +34,6 @@ export const pages = [
         path: "introduction-to-front-end-development/assignment3",
         element: <Assignment3 />,
       },
-      {
-        name: "Assignment 4",
-        path: "introduction-to-front-end-development/assignment4",
-        element: <Assignment4 />,
-      },
-      {
-        name: "Assignment 5",
-        path: "introduction-to-front-end-development/assignment5",
-        element: <Assignment5 />,
-      },
-      {
-        name: "Assignment 6",
-        path: "introduction-to-front-end-development/assignment6",
-        element: <Assignment6 />,
-      },
     ],
   },
   {
@@ -67,7 +52,13 @@ export const pages = [
     name: "HTML and CSS in depth",
     path: "html-and-css-in-depth",
     element: <HtmlCssHome />,
-    projects: [],
+    projects: [
+      {
+        name: "Lab: Create A Grid Layout",
+        path: "html-and-css-in-depth/create-a-grid-layout",
+        element: <LabCreateAGridLayout />,
+      },
+    ],
   },
   {
     name: "React Basics",
