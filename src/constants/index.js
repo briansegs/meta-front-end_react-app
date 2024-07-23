@@ -10,6 +10,7 @@ import {
   HtmlCssHome,
   LabCreateAGridLayout,
   LabForm,
+  LabRateTheMedia,
 } from "../pages/HTML and CSS in depth";
 import { ReactBasicsHome } from "../pages/React Basics";
 import { AdvancedReactHome } from "../pages/Advanced React";
@@ -63,6 +64,11 @@ export const pages = [
         name: "Lab: form",
         path: "html-and-css-in-depth/lab-form",
         element: <LabForm />,
+      },
+      {
+        name: "Lab: Rate The Media",
+        path: "html-and-css-in-depth/lab-rate-the-media",
+        element: <LabRateTheMedia />,
       },
     ],
   },
