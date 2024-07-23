@@ -12,7 +12,7 @@ import {
   LabForm,
   LabRateTheMedia,
 } from "../pages/HTML and CSS in depth";
-import { ReactBasicsHome, Audio } from "../pages/React Basics";
+import { ReactBasicsHome, Audio, CalculatorApp } from "../pages/React Basics";
 import { AdvancedReactHome } from "../pages/Advanced React";
 
 export const pages = [
@@ -81,6 +81,11 @@ export const pages = [
         name: "Audio",
         path: "react-basics/audio",
         element: <Audio />,
+      },
+      {
+        name: "Calculator App",
+        path: "react-basics/calculator-app",
+        element: <CalculatorApp />,
       },
     ],
   },
