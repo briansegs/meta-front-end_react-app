@@ -9,6 +9,7 @@ import { VersionControlHome } from "../pages/Version Control";
 import {
   HtmlCssHome,
   LabCreateAGridLayout,
+  LabForm,
 } from "../pages/HTML and CSS in depth";
 import { ReactBasicsHome } from "../pages/React Basics";
 import { AdvancedReactHome } from "../pages/Advanced React";
@@ -55,8 +56,13 @@ export const pages = [
     projects: [
       {
         name: "Lab: Create A Grid Layout",
-        path: "html-and-css-in-depth/create-a-grid-layout",
+        path: "html-and-css-in-depth/lab-create-a-grid-layout",
         element: <LabCreateAGridLayout />,
+      },
+      {
+        name: "Lab: form",
+        path: "html-and-css-in-depth/lab-form",
+        element: <LabForm />,
       },
     ],
   },
