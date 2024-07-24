@@ -4,6 +4,7 @@ import PracticeContextTheme from "./practice-context-theme/PracticeContextTheme"
 import LabImportComponent from "./lab-import-component/LabImportComponent";
 import PracticeUseRef from "./practice-useref/PracticeUseRef";
 import PracticeUseState from "./practice-usestate/PracticeUseState";
+import PracticeControlledForm1 from "./practice-controlled-form-1/PracticeControlledForm1";
 
 export {
   AdvancedReactHome,
@@ -12,4 +13,5 @@ export {
   LabImportComponent,
   PracticeUseRef,
   PracticeUseState,
+  PracticeControlledForm1,
 };

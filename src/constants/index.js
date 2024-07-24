@@ -21,6 +21,7 @@ import {
   LabImportComponent,
   PracticeUseRef,
   PracticeUseState,
+  PracticeControlledForm1,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -131,6 +132,11 @@ export const pages = [
         name: "Practice: useState",
         path: "advanced-react/practice-usestate",
         element: <PracticeUseState />,
+      },
+      {
+        name: "Practice: Controlled Form 1",
+        path: "advanced-react/practice-controlled-form-1",
+        element: <PracticeControlledForm1 />,
       },
     ],
   },
