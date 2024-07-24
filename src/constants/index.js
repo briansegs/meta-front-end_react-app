@@ -14,7 +14,11 @@ import {
   ProjectPortfolio,
 } from "../pages/HTML and CSS in depth";
 import { ReactBasicsHome, Audio, CalculatorApp } from "../pages/React Basics";
-import { AdvancedReactHome, PracticeContext } from "../pages/Advanced React";
+import {
+  AdvancedReactHome,
+  PracticeContext,
+  PracticeContextTheme,
+} from "../pages/Advanced React";
 
 export const pages = [
   {
@@ -104,6 +108,11 @@ export const pages = [
         name: "Practice: Context",
         path: "advanced-react/practice-context",
         element: <PracticeContext />,
+      },
+      {
+        name: "Practice: Context Theme",
+        path: "advanced-react/practice-context-theme",
+        element: <PracticeContextTheme />,
       },
     ],
   },
