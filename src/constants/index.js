@@ -18,6 +18,8 @@ import {
   AdvancedReactHome,
   PracticeContext,
   PracticeContextTheme,
+  LabImportComponent,
+  PracticeUseRef,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -113,6 +115,16 @@ export const pages = [
         name: "Practice: Context Theme",
         path: "advanced-react/practice-context-theme",
         element: <PracticeContextTheme />,
+      },
+      {
+        name: "Lab: Import Component",
+        path: "advanced-react/lab-import-component",
+        element: <LabImportComponent />,
+      },
+      {
+        name: "Practice: useRef",
+        path: "advanced-react/practice-useref",
+        element: <PracticeUseRef />,
       },
     ],
   },
