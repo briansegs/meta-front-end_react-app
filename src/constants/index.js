@@ -23,6 +23,7 @@ import {
   PracticeUseState,
   PracticeControlledForm1,
   PracticeControlledForm2,
+  PracticePuttingItTogether,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -143,6 +144,11 @@ export const pages = [
         name: "Practice: Controlled Form 2",
         path: "advanced-react/practice-controlled-form-2",
         element: <PracticeControlledForm2 />,
+      },
+      {
+        name: "Practice: Putting It Together",
+        path: "advanced-react/practice-putting-it-together",
+        element: <PracticePuttingItTogether />,
       },
     ],
   },

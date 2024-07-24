@@ -44,7 +44,7 @@ function App() {
   const { theme } = useTheme();
 
   return (
-    <div className="flex justify-center w-full">
+    <div className="flex justify-center w-full relative">
       <div
         className="flex flex-col py-8 px-4 gap-12 max-w-[900px]"
         style={{
