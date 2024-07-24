@@ -20,6 +20,7 @@ import {
   PracticeContextTheme,
   LabImportComponent,
   PracticeUseRef,
+  PracticeUseState,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -125,6 +126,11 @@ export const pages = [
         name: "Practice: useRef",
         path: "advanced-react/practice-useref",
         element: <PracticeUseRef />,
+      },
+      {
+        name: "Practice: useState",
+        path: "advanced-react/practice-usestate",
+        element: <PracticeUseState />,
       },
     ],
   },
