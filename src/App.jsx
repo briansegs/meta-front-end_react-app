@@ -16,13 +16,23 @@ function App() {
           {pages.map((page) => (
             <>
               <Route key={page.path} path={page.path} element={page.element} />
-              {page.projects.map((project) => (
-                <Route
-                  key={project.name}
-                  path={project.path}
-                  element={project.element}
-                />
-              ))}
+              {page.projects.map((project) =>
+                project.folder ? (
+                  project.projects.map((project) => (
+                    <Route
+                      key={project.name}
+                      path={project.path}
+                      element={project.element}
+                    />
+                  ))
+                ) : (
+                  <Route
+                    key={project.name}
+                    path={project.path}
+                    element={project.element}
+                  />
+                )
+              )}
             </>
           ))}
         </Route>
