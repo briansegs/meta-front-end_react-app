@@ -1,12 +1,12 @@
 import AdvancedReactHome from "./AdvancedReactHome";
-import PracticeContext from "./practice-context/PracticeContext";
-import PracticeContextTheme from "./practice-context-theme/PracticeContextTheme";
-import LabImportComponent from "./lab-import-component/LabImportComponent";
-import PracticeUseRef from "./practice-useref/PracticeUseRef";
-import PracticeUseState from "./practice-usestate/PracticeUseState";
-import PracticeControlledForm1 from "./practice-controlled-form-1/PracticeControlledForm1";
-import PracticeControlledForm2 from "./practice-controlled-form-2/PracticeControlledForm2";
-import PracticePuttingItTogether from "./practice-putting-it-together/PracticePuttingItTogether";
+import PracticeContext from "./week1/practice-context/PracticeContext";
+import PracticeContextTheme from "./week1/practice-context-theme/PracticeContextTheme";
+import LabImportComponent from "./week1/lab-import-component/LabImportComponent";
+import PracticeUseRef from "./week1/practice-useref/PracticeUseRef";
+import PracticeUseState from "./week1/practice-usestate/PracticeUseState";
+import PracticeControlledForm1 from "./week1/practice-controlled-form-1/PracticeControlledForm1";
+import PracticeControlledForm2 from "./week1/practice-controlled-form-2/PracticeControlledForm2";
+import PracticePuttingItTogether from "./week1/practice-putting-it-together/PracticePuttingItTogether";
 
 export {
   AdvancedReactHome,
