@@ -9,6 +9,7 @@ import PracticeControlledForm2 from "./week1/practice-controlled-form-2/Practice
 import PracticePuttingItTogether from "./week1/practice-putting-it-together/PracticePuttingItTogether";
 import PracticeState1 from "./week2/practice-state-1/PracticeState1";
 import PracticeState2 from "./week2/practice-state-2/PracticeState2";
+import PracticeState3 from "./week2/practice-state-3/PracticeState3";
 
 export {
   AdvancedReactHome,
@@ -22,4 +23,5 @@ export {
   PracticePuttingItTogether,
   PracticeState1,
   PracticeState2,
+  PracticeState3,
 };

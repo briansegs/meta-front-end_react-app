@@ -26,6 +26,7 @@ import {
   PracticePuttingItTogether,
   PracticeState1,
   PracticeState2,
+  PracticeState3,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -177,6 +178,11 @@ export const pages = [
             name: "Practice: State 2",
             path: "advanced-react/practice-state-2",
             element: <PracticeState2 />,
+          },
+          {
+            name: "Practice: State 3",
+            path: "advanced-react/practice-state-3",
+            element: <PracticeState3 />,
           },
         ],
       },

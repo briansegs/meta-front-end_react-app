@@ -15,8 +15,8 @@ function App() {
           onClick={() =>
             setGreeting((prevGreeting) => ({
               ...prevGreeting,
-              greet: "Hello",
-              name: "Brian",
+              greet: "Sup",
+              name: "Bro",
             }))
           }
         >
