@@ -113,6 +113,7 @@ export const pages = [
   {
     name: "Advanced React",
     path: "advanced-react",
+    folder: false,
     element: <AdvancedReactHome />,
     projects: [
       {
