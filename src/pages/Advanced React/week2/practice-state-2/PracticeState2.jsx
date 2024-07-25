@@ -48,7 +48,7 @@ function ListOfGoals(props) {
     <ul>
       {props.allGoals.map((g) => (
         <li key={g.goal}>
-          <span className="pl-2 border-l-2">
+          <span className="text-yellow-50 pl-2 border-l-2">
             My goal is to {g.goal}, by {g.by}
           </span>
         </li>
