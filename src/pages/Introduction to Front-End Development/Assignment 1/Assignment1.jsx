@@ -1,6 +1,10 @@
 const assignment1 = () => {
   return (
-    <div className="mx-4 my-2">I successfully created my first document</div>
+    <div className="w-full bg-slate-50 flex justify-center">
+      <div className="px-4 py-2 w-[650px] bg-white">
+        I successfully created my first document
+      </div>
+    </div>
   );
 };
 
