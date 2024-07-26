@@ -9,7 +9,7 @@ const ideaList = [
 
 const HomeInfoCard = ({ title, content }) => (
   <div className="m-8 w-fit rounded-lg border-[1px] border-white bg-slate-50">
-    <div className="flex items-center rounded-t-lg px-8 py-6 justify-center w-full bg-gradient-to-r  from-blue-500 from-20% via-sky-400 via-60% to-blue-500 to-100%">
+    <div className="flex items-center rounded-t-lg px-8 py-6 justify-center w-full bg-gradient-to-r from-blue-400 to-cyan-300">
       <p className="text-white text-3xl font-semibold">{title}</p>
     </div>
     <div className="p-4 flex flex-col">{content}</div>
@@ -21,7 +21,7 @@ const Home = () => {
     <section className="w-full bg-slate-200">
       <div className="flex flex-col gap-4 items-center w-full bg-gradient-to-r from-blue-500 from-20% via-sky-400 via-60% to-blue-500 to-100% p-6">
         <h1 className="text-6xl font-bold text-white">Course Work</h1>
-        <h2 className="text-5xl font-bold text-slate-800 bg-white/30 py-2 px-4 rounded-lg mb-2">
+        <h2 className="text-4xl font-bold text-slate-800 bg-white/30 py-2 px-4 rounded-lg mb-2">
           Developing skills - Gaining knowledge
         </h2>
       </div>
