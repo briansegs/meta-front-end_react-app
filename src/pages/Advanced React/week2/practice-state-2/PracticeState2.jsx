@@ -34,7 +34,7 @@ const Goalform = (props) => {
             onChange={changeHandler}
             placeholder="By..."
           />
-          <button className="bg-slate-900 text-gray-100 rounded-md py-4 px-2">
+          <button className="bg-slate-900 text-gray-100 rounded-md py-4 px-2 hover:bg-slate-950 hover:shadow-lg">
             Submit Goal
           </button>
         </form>
