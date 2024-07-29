@@ -34,7 +34,7 @@ function App() {
         {giftCard.valid && (
           <button
             className="text-xl font-semibold rounded-lg bg-gradient-to-r from-yellow-300 to-yellow-100
-            text-neutral-800 py-2 px-4 mt-4"
+            text-neutral-800 py-2 px-4 mt-4 hover:to-yellow-200 hover:from-yellow-200 hover:text-black"
             onClick={handleClick}
           >
             Spend Gift Card
