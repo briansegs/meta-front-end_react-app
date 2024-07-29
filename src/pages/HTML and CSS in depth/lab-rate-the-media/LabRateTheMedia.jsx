@@ -18,7 +18,12 @@ const LabRateTheMedia = () => {
             <option value="5" label="5"></option>
           </datalist>
         </div>
-        <button type="submit">Submit Rating</button>
+        <button
+          className="border-2 p-2 rounded-md hover:border-neutral-300 hover:bg-neutral-100"
+          type="submit"
+        >
+          Submit Rating
+        </button>
       </form>
     </div>
   );
