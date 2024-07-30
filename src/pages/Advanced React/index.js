@@ -12,6 +12,7 @@ import PracticeState2 from "./week2/practice-state-2/PracticeState2";
 import PracticeState3 from "./week2/practice-state-3/PracticeState3";
 import PracticeFetchUser1 from "./week2/practice-fetch-user-1/PracticeFetchUser1";
 import PracticeUseRuducer1 from "./week2/practice-usereducer-1/PracticeUseRuducer1";
+import PracticeUseRef2 from "./week2/practice-useRef-2/PracticeUseRef2";
 
 export {
   AdvancedReactHome,
@@ -28,4 +29,5 @@ export {
   PracticeState3,
   PracticeFetchUser1,
   PracticeUseRuducer1,
+  PracticeUseRef2,
 };

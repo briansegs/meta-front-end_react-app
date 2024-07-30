@@ -2,7 +2,7 @@ import InfoCard from "../../components/InfoCard";
 
 const learningList = [
   "1. Context Api for global State",
-  "2. Hooks: useRef useState useEffect",
+  "2. Hooks: useRef useState useEffect useReducer",
   "3. Controlled forms",
   "4. State managment",
   "5. Data fetching",

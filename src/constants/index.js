@@ -29,6 +29,7 @@ import {
   PracticeState3,
   PracticeFetchUser1,
   PracticeUseRuducer1,
+  PracticeUseRef2,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -195,6 +196,11 @@ export const pages = [
             name: "Practice: useReducer 1",
             path: "advanced-react/practice-usereducer-1",
             element: <PracticeUseRuducer1 />,
+          },
+          {
+            name: "Practice: useRef 2",
+            path: "advanced-react/practice-useref-2",
+            element: <PracticeUseRef2 />,
           },
         ],
       },
