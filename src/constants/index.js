@@ -31,6 +31,7 @@ import {
   PracticeUseRuducer1,
   PracticeUseRef2,
   LabCustomHook,
+  ComponentCompositionWithChildren,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -207,6 +208,17 @@ export const pages = [
             name: "Lab: Custom Hook",
             path: "advanced-react/lab-custom-hook",
             element: <LabCustomHook />,
+          },
+        ],
+      },
+      {
+        name: "Week 3",
+        folder: true,
+        projects: [
+          {
+            name: "Practice: Component composition with children",
+            path: "advanced-react/component-composition-with-children",
+            element: <ComponentCompositionWithChildren />,
           },
         ],
       },

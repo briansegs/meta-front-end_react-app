@@ -14,6 +14,7 @@ import PracticeFetchUser1 from "./week2/practice-fetch-user-1/PracticeFetchUser1
 import PracticeUseRuducer1 from "./week2/practice-usereducer-1/PracticeUseRuducer1";
 import PracticeUseRef2 from "./week2/practice-useRef-2/PracticeUseRef2";
 import LabCustomHook from "./week2/lab-custom-hook/LabCustomHook";
+import ComponentCompositionWithChildren from "./week3/component-composition-with-children/ComponentCompositionWithChildren";
 
 export {
   AdvancedReactHome,
@@ -32,4 +33,5 @@ export {
   PracticeUseRuducer1,
   PracticeUseRef2,
   LabCustomHook,
+  ComponentCompositionWithChildren,
 };
