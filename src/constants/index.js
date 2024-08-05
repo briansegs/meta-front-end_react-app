@@ -32,6 +32,7 @@ import {
   PracticeUseRef2,
   LabCustomHook,
   ComponentCompositionWithChildren,
+  ManipulatingChildren,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -219,6 +220,11 @@ export const pages = [
             name: "Practice: Component composition with children",
             path: "advanced-react/component-composition-with-children",
             element: <ComponentCompositionWithChildren />,
+          },
+          {
+            name: "Practice: Manipulating Children",
+            path: "advanced-react/manipulating-children",
+            element: <ManipulatingChildren />,
           },
         ],
       },
