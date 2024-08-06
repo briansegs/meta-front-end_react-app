@@ -24,7 +24,7 @@ const ManipulatingChildren = () => {
   return (
     <div className="bg-slate-100 w-full justify-center flex">
       <div className="bg-white w-[450px] flex flex-col items-center pt-4 px-6">
-        <h1 className="text-2xl pb-8">Receipt 🍕</h1>
+        <h1 className="text-2xl pb-8">Live Orders 🍕</h1>
         {pizzaData.map((data, index) => (
           <Row key={data.customer + index} spacing={20}>
             <p>{data.name}</p>

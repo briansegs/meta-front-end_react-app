@@ -15,7 +15,8 @@ import PracticeUseRuducer1 from "./week2/practice-usereducer-1/PracticeUseRuduce
 import PracticeUseRef2 from "./week2/practice-useRef-2/PracticeUseRef2";
 import LabCustomHook from "./week2/lab-custom-hook/LabCustomHook";
 import ComponentCompositionWithChildren from "./week3/component-composition-with-children/ComponentCompositionWithChildren";
-import ManipulatingChildren from "./week3/component-composition-with-children/manipulating-children/ManipulatingChildren";
+import ManipulatingChildren from "./week3/manipulating-children/ManipulatingChildren";
+import RadioGroupComponent from "./week3/radio-group-component/RadioGroupComponent";
 
 export {
   AdvancedReactHome,
@@ -36,4 +37,5 @@ export {
   LabCustomHook,
   ComponentCompositionWithChildren,
   ManipulatingChildren,
+  RadioGroupComponent,
 };
