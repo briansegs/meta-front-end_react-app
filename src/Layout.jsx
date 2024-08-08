@@ -8,9 +8,12 @@ const Layout = () => {
     <html lang="en">
       <body className="flex flex-col h-screen justify-between">
         <Header />
+
         <div className="flex flex-1">
           <Nav />
-          <Outlet />
+          <div className="w-full outlet-height custom-scrollbar">
+            <Outlet />
+          </div>
         </div>
 
         <Footer />

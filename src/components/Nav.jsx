@@ -29,9 +29,9 @@ const Nav = () => {
   };
 
   return (
-    <nav className="p-8 bg-slate-50 border-r-[1px]">
+    <nav className="p-8 bg-slate-50 border-r-[1px] w-96 outlet-height custom-scrollbar">
       <div>
-        <div className="flex flex-col gap-4 w-60">
+        <div className="flex flex-col gap-4 ">
           {pages.map((page) => (
             <div
               className={`flex flex-col ${

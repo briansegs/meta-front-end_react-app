@@ -19,3 +19,21 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+
+.outlet-height {
+  height: calc(100vh - 145px);
+}
+
+.custom-scrollbar {
+  overflow-y: scroll;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: slategray;
+  border-radius: 6px;
+  border: 2px solid #f8fafc;
+}
