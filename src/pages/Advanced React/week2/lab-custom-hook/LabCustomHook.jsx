@@ -16,7 +16,7 @@ export default function App() {
     }
   };
   return (
-    <div className="w-full flex justify-center">
+    <div className="h-full flex justify-center">
       <div className="p-10 flex flex-col items-start w-[550px]">
         <div className="text-5xl font-bold">
           <p className="text-blue-500">

@@ -9,7 +9,7 @@ const PracticeUseRef2 = () => {
   };
 
   return (
-    <div className="w-full flex justify-center bg-slate-100">
+    <div className="h-full flex justify-center bg-slate-100">
       <div className="bg-rose-700 size-fit m-12 p-12 rounded-lg flex items-center flex-col border-2 border-slate-900">
         <h1 className="text-4xl font-bold mb-8 text-slate-900">
           Using useRef to access underlying Dom

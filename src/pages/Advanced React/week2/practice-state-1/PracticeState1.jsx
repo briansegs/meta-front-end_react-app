@@ -7,7 +7,7 @@ function App() {
   });
 
   return (
-    <div className="w-full flex justify-center bg-slate-100">
+    <div className="h-full flex justify-center bg-slate-100">
       <div className="mt-10 flex place-items-center flex-col h-fit w-[550px] py-14 rounded-xl px-16 text-[#ffffffde] bg-[#242424] leading-[1.5] justify-center items-center font-normal">
         <h1 className="text-[3.2em] leading-[1.1]">{`${greeting.greet} ${greeting.name}`}</h1>
         <div className="p-[2em] flex flex-col items-center justify-center gap-4">

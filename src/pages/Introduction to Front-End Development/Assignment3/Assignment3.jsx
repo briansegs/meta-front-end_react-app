@@ -2,7 +2,7 @@ import photo from "./photo.jpg";
 
 const Assignment3 = () => {
   return (
-    <div className="w-full bg-slate-200 flex justify-center">
+    <div className="h-full bg-slate-200 flex justify-center">
       <div className="bg-white w-[650px] px-4 py-2 flex flex-col items-center">
         <div className="m-1">
           <h1 className="text-blue-600 text-xl">Brian Segers</h1>

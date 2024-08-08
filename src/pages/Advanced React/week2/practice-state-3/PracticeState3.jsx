@@ -19,7 +19,7 @@ function App() {
   };
 
   return (
-    <div className="bg-neutral-950 text-orange-300 w-full flex justify-center">
+    <div className="bg-neutral-950 text-orange-300 h-full flex justify-center">
       <div className="max-w-[900px] gap-2 flex items-center flex-col py-6 px-12 bg-neutral-900 h-fit m-16 rounded-md">
         <h1 className="text-6xl font-bold text-neutral-100">Gift Card Page</h1>
         <h2 className="text-3xl py-4">

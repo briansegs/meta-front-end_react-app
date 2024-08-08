@@ -2,7 +2,7 @@ import logo from "./logo.png";
 
 const Assignment2 = () => {
   return (
-    <div className="w-full bg-slate-50 flex justify-center">
+    <div className="h-full bg-slate-50 flex justify-center">
       <div className="bg-[#e0e0e2] body w-[650px] px-4 py-2">
         <div>
           <img

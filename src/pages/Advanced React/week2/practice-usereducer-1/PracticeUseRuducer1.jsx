@@ -35,7 +35,7 @@ const PracticeUseRuducer1 = () => {
   );
 
   return (
-    <div className="w-full flex justify-center bg-slate-100">
+    <div className="h-full flex justify-center bg-slate-100">
       <div className="rounded-md m-12 p-16 bg-emerald-900 h-fit w-[550px] flex flex-col items-center border-2 border-white">
         <h1 className="text-6xl font-bold text-sky-400 pb-16">
           Wallet: <span className="font-normal text-white">{state.money}</span>

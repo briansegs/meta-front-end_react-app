@@ -9,7 +9,7 @@ function App() {
   };
 
   return (
-    <div className="w-full flex justify-center bg-black">
+    <div className="flex h-full justify-center bg-black">
       <div className="bg-white px-12 pt-6 flex flex-col items-start gap-4">
         <h2 className="text-2xl font-semibold">
           How did you hear about Little Lemon?

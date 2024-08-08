@@ -10,7 +10,7 @@ function App() {
   };
 
   return (
-    <div className="flex w-full justify-center">
+    <div className="flex h-full justify-center">
       <div className="flex items-center justify-center max-w-[900px] h-[50vh]">
         <form onSubmit={handleSubmit}>
           <fieldset className="flex flex-col gap-4 items-center">

@@ -9,7 +9,7 @@ const learningList = [
 
 const IntroHome = () => {
   return (
-    <section className="w-full bg-slate-200">
+    <section className="h-full bg-slate-200">
       <div className="flex items-center w-full bg-slate-50 p-6">
         <h1 className="text-3xl font-medium text-slate-600">
           Introduction to Front-End Development

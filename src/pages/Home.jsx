@@ -9,7 +9,7 @@ const ideaList = [
 
 const Home = () => {
   return (
-    <section className="w-full bg-slate-200">
+    <section className="h-full bg-slate-200">
       <div className="flex flex-col gap-4 items-center w-full bg-gradient-to-r from-blue-500 from-20% via-sky-400 via-60% to-blue-500 to-100% p-6">
         <h1 className="text-6xl font-bold text-white">Course Work</h1>
         <h2 className="text-4xl font-bold text-slate-800 bg-white/30 py-2 px-4 rounded-lg mb-2">

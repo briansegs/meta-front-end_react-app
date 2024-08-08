@@ -25,9 +25,11 @@ const desserts = [
 
 function App() {
   return (
-    <div className="p-4">
-      <h2 className="mb-4">List of low calorie desserts:</h2>
-      <DessertsList data={desserts} />
+    <div className="flex justify-center">
+      <div className="p-4">
+        <h2 className="mb-4">List of low calorie desserts:</h2>
+        <DessertsList data={desserts} />
+      </div>
     </div>
   );
 }

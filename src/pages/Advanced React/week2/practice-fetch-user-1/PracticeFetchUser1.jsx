@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   return Object.keys(user).length > 0 ? (
-    <section className="bg-cyan-50 w-full flex justify-center p-20">
+    <section className="bg-cyan-50 h-full flex justify-center p-20">
       <div className="bg-white p-5 flex justify-center h-fit items-center flex-col gap-[10px] rounded-md border-2 border-red-200">
         <h1>Customer data</h1>
         <h2>

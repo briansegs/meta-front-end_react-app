@@ -10,7 +10,7 @@ function App() {
   };
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="h-full flex justify-center">
       <div className="max-w-[900px] my-0 mx-auto p-8 text-center">
         <h1 className="text-[3.2em]">Practice useRef</h1>
 

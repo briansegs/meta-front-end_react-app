@@ -3,7 +3,7 @@ import logo from "./logo.png";
 
 const LabForm = () => {
   return (
-    <div className="w-full flex justify-center bg-slate-50">
+    <div className="h-full flex justify-center bg-slate-50">
       <div className={`${styles.body} w-[650px] px-4 py-2`}>
         <header>
           <img className={styles.img} alt="logo" src={logo} />

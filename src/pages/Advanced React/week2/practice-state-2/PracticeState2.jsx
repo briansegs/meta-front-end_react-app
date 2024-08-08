@@ -66,7 +66,7 @@ function App() {
   }
 
   return (
-    <div className="max-w-[1280px] my-0 mx-auto p-8 text-center text-gray-900 bg-slate-600 leading-[1.5] font-normal">
+    <div className="w-fit h-full my-0 mx-auto p-8 text-center text-gray-900 bg-slate-600 leading-[1.5] font-normal">
       <Goalform onAdd={addGoal} />
       <ListOfGoals allGoals={allGoals} />
     </div>

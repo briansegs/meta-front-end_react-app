@@ -35,7 +35,7 @@ const ComponentCompositionWithChildren = () => {
   const [showAlert, setShowAlert] = useState(false);
 
   return (
-    <div className="bg-black w-full flex justify-center relative">
+    <div className="bg-black h-full flex justify-center relative">
       <div className="bg-white w-[900px] flex flex-col items-center">
         <header className="mt-4 text-2xl">Little Lemon Restaurant 🍋</header>
 

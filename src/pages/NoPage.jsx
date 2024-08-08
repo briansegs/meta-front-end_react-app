@@ -4,7 +4,7 @@ const NoPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full flex justify-center bg-slate-100">
+    <div className="h-full flex justify-center bg-slate-100">
       <div className="bg-white size-fit mt-12 mx-4 mb-4 px-14 py-12 rounded-xl flex flex-col items-center border-[1px] border-slate-200">
         <h1 className="text-6xl mb-2">404</h1>
         <h2 className="text-4xl mb-4">Page not found</h2>
