@@ -34,6 +34,7 @@ import {
   ComponentCompositionWithChildren,
   ManipulatingChildren,
   RadioGroupComponent,
+  SpreadAttributes,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -228,9 +229,14 @@ export const pages = [
             element: <ManipulatingChildren />,
           },
           {
-            name: "lab: Radio Group Component",
+            name: "Lab: Radio Group Component",
             path: "advanced-react/radio-group-component",
             element: <RadioGroupComponent />,
+          },
+          {
+            name: "Practice: Spread Attributes",
+            path: "advanced-react/spread-attributes",
+            element: <SpreadAttributes />,
           },
         ],
       },

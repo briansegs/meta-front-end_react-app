@@ -17,6 +17,7 @@ import LabCustomHook from "./week2/lab-custom-hook/LabCustomHook";
 import ComponentCompositionWithChildren from "./week3/component-composition-with-children/ComponentCompositionWithChildren";
 import ManipulatingChildren from "./week3/manipulating-children/ManipulatingChildren";
 import RadioGroupComponent from "./week3/radio-group-component/RadioGroupComponent";
+import SpreadAttributes from "./week3/spread-attributes/SpreadAttributes";
 
 export {
   AdvancedReactHome,
@@ -38,4 +39,5 @@ export {
   ComponentCompositionWithChildren,
   ManipulatingChildren,
   RadioGroupComponent,
+  SpreadAttributes,
 };
