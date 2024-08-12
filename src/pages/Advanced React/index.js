@@ -18,6 +18,7 @@ import ComponentCompositionWithChildren from "./week3/component-composition-with
 import ManipulatingChildren from "./week3/manipulating-children/ManipulatingChildren";
 import RadioGroupComponent from "./week3/radio-group-component/RadioGroupComponent";
 import SpreadAttributes from "./week3/spread-attributes/SpreadAttributes";
+import HocCursorPosition from "./week4/hoc-cursor-position/HocCursorPosition";
 
 export {
   AdvancedReactHome,
@@ -40,4 +41,5 @@ export {
   ManipulatingChildren,
   RadioGroupComponent,
   SpreadAttributes,
+  HocCursorPosition,
 };

@@ -35,6 +35,7 @@ import {
   ManipulatingChildren,
   RadioGroupComponent,
   SpreadAttributes,
+  HocCursorPosition,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -237,6 +238,17 @@ export const pages = [
             name: "Practice: Spread Attributes",
             path: "advanced-react/spread-attributes",
             element: <SpreadAttributes />,
+          },
+        ],
+      },
+      {
+        name: "Week 4",
+        folder: true,
+        projects: [
+          {
+            name: "Practice: HOC for cursor position",
+            path: "advanced-react/hoc-cursor-position",
+            element: <HocCursorPosition />,
           },
         ],
       },
