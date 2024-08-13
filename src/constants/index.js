@@ -36,6 +36,7 @@ import {
   RadioGroupComponent,
   SpreadAttributes,
   HocCursorPosition,
+  PracticeRenderProps,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -249,6 +250,11 @@ export const pages = [
             name: "Practice: HOC for cursor position",
             path: "advanced-react/hoc-cursor-position",
             element: <HocCursorPosition />,
+          },
+          {
+            name: "Practice: Render Props",
+            path: "advanced-react/practice-render-props",
+            element: <PracticeRenderProps />,
           },
         ],
       },

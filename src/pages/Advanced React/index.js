@@ -19,6 +19,7 @@ import ManipulatingChildren from "./week3/manipulating-children/ManipulatingChil
 import RadioGroupComponent from "./week3/radio-group-component/RadioGroupComponent";
 import SpreadAttributes from "./week3/spread-attributes/SpreadAttributes";
 import HocCursorPosition from "./week4/hoc-cursor-position/HocCursorPosition";
+import PracticeRenderProps from "./week4/practice-render-props/PracticeRenderProps";
 
 export {
   AdvancedReactHome,
@@ -42,4 +43,5 @@ export {
   RadioGroupComponent,
   SpreadAttributes,
   HocCursorPosition,
+  PracticeRenderProps,
 };
