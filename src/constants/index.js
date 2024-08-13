@@ -37,6 +37,7 @@ import {
   SpreadAttributes,
   HocCursorPosition,
   PracticeRenderProps,
+  LabHocCursorPosition,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -255,6 +256,11 @@ export const pages = [
             name: "Practice: Render Props",
             path: "advanced-react/practice-render-props",
             element: <PracticeRenderProps />,
+          },
+          {
+            name: "Lab: HOC for cursor position",
+            path: "advanced-react/lab-hoc-cursor-position",
+            element: <LabHocCursorPosition />,
           },
         ],
       },

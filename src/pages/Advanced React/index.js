@@ -20,6 +20,7 @@ import RadioGroupComponent from "./week3/radio-group-component/RadioGroupCompone
 import SpreadAttributes from "./week3/spread-attributes/SpreadAttributes";
 import HocCursorPosition from "./week4/hoc-cursor-position/HocCursorPosition";
 import PracticeRenderProps from "./week4/practice-render-props/PracticeRenderProps";
+import LabHocCursorPosition from "./week4/lab-hoc-cursor-position/LabHocCursorPosition";
 
 export {
   AdvancedReactHome,
@@ -44,4 +45,5 @@ export {
   SpreadAttributes,
   HocCursorPosition,
   PracticeRenderProps,
+  LabHocCursorPosition,
 };
