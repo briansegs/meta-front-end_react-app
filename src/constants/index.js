@@ -258,7 +258,7 @@ export const pages = [
             element: <PracticeRenderProps />,
           },
           {
-            name: "Lab: HOC for cursor position",
+            name: "Lab: Render Props for cursor position",
             path: "advanced-react/lab-hoc-cursor-position",
             element: <LabHocCursorPosition />,
           },
