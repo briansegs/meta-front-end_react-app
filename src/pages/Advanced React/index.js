@@ -21,6 +21,7 @@ import SpreadAttributes from "./week3/spread-attributes/SpreadAttributes";
 import HocCursorPosition from "./week4/hoc-cursor-position/HocCursorPosition";
 import PracticeRenderProps from "./week4/practice-render-props/PracticeRenderProps";
 import LabHocCursorPosition from "./week4/lab-hoc-cursor-position/LabHocCursorPosition";
+import PracticeFirstTest from "./week5/practice-first-test/PracticeFirstTest";
 
 export {
   AdvancedReactHome,
@@ -46,4 +47,5 @@ export {
   HocCursorPosition,
   PracticeRenderProps,
   LabHocCursorPosition,
+  PracticeFirstTest,
 };

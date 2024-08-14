@@ -38,6 +38,7 @@ import {
   HocCursorPosition,
   PracticeRenderProps,
   LabHocCursorPosition,
+  PracticeFirstTest,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -261,6 +262,17 @@ export const pages = [
             name: "Lab: Render Props for cursor position",
             path: "advanced-react/lab-hoc-cursor-position",
             element: <LabHocCursorPosition />,
+          },
+        ],
+      },
+      {
+        name: "Week 5",
+        folder: true,
+        projects: [
+          {
+            name: "Practice: First test",
+            path: "advanced-react/first-test",
+            element: <PracticeFirstTest />,
           },
         ],
       },
