@@ -9,6 +9,7 @@ const DataFetcher = ({ render, url }) => {
     } else {
       setData(["water", "soda", "juice"]);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return render(data);
