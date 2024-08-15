@@ -39,6 +39,7 @@ import {
   PracticeRenderProps,
   LabHocCursorPosition,
   PracticeFirstTest,
+  LabCreatePortfolio,
 } from "../pages/Advanced React";
 
 export const pages = [
@@ -273,6 +274,11 @@ export const pages = [
             name: "Practice: First test",
             path: "advanced-react/first-test",
             element: <PracticeFirstTest />,
+          },
+          {
+            name: "Lab: Create Portfolio",
+            path: "advanced-react/lab-create-portfolio",
+            element: <LabCreatePortfolio />,
           },
         ],
       },

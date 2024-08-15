@@ -22,6 +22,7 @@ import HocCursorPosition from "./week4/hoc-cursor-position/HocCursorPosition";
 import PracticeRenderProps from "./week4/practice-render-props/PracticeRenderProps";
 import LabHocCursorPosition from "./week4/lab-hoc-cursor-position/LabHocCursorPosition";
 import PracticeFirstTest from "./week5/practice-first-test/PracticeFirstTest";
+import LabCreatePortfolio from "./week5/lab-create-portfolio/LabCreatePortfolio";
 
 export {
   AdvancedReactHome,
@@ -48,4 +49,5 @@ export {
   PracticeRenderProps,
   LabHocCursorPosition,
   PracticeFirstTest,
+  LabCreatePortfolio,
 };
