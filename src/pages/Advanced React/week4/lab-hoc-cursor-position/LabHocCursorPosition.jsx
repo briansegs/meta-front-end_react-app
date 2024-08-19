@@ -21,7 +21,6 @@ const MousePosition = ({ render }) => {
     };
   }, []);
 
-  // What should be returned here?
   return render(mousePosition);
 };
 
