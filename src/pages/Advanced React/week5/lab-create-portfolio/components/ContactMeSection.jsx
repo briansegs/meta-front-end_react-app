@@ -95,11 +95,15 @@ const LandingSection = () => {
                   onChange={formik.handleChange}
                   value={formik.values.type}
                 >
-                  <option value="hireMe">Freelance project proposal</option>
-                  <option value="openSource">
+                  <option className="text-blue-600" value="hireMe">
+                    Freelance project proposal
+                  </option>
+                  <option className="text-blue-600" value="openSource">
                     Open source consultancy session
                   </option>
-                  <option value="other">Other</option>
+                  <option className="text-blue-600" value="other">
+                    Other
+                  </option>
                 </Select>
               </FormControl>
               <FormControl isInvalid={formik.touched && formik.errors.comment}>
