@@ -17,37 +17,41 @@ const HtmlCssHome = () => {
         </h1>
       </div>
 
-      <div className="w-full flex justify-center">
-        <InfoCard
-          title="Content and Style"
-          content={
-            <>
-              <p className="text-neutral-600 font-semibold text-xl">
-                Key learnings:
-              </p>
-              {learningList.map((idea) => (
-                <p key={idea} className="text-slate-600 pl-2">
-                  {idea}
+      <div className="section-styles">
+        <div className="section-row">
+          <InfoCard
+            title="Content and Style"
+            content={
+              <>
+                <p className="text-neutral-600 font-semibold text-xl">
+                  Key learnings:
                 </p>
-              ))}
-            </>
-          }
-        />
+                {learningList.map((idea) => (
+                  <p key={idea} className="text-slate-600 pl-2">
+                    {idea}
+                  </p>
+                ))}
+              </>
+            }
+          />
 
-        <InfoCard
-          title="Final Project"
-          content={
-            <div className="max-w-[30rem] flex items-center">
-              <p className="text-neutral-600 font-semibold text-xl">Project:</p>
-              <Link
-                to="/html-and-css-in-depth/project-portfolio"
-                className="pl-2 text-red-400 hover:text-rose-300"
-              >
-                Portfolio Link
-              </Link>
-            </div>
-          }
-        />
+          <InfoCard
+            title="Final Project"
+            content={
+              <div className="max-w-[30rem] flex items-center">
+                <p className="text-neutral-600 font-semibold text-xl">
+                  Project:
+                </p>
+                <Link
+                  to="/html-and-css-in-depth/project-portfolio"
+                  className="pl-2 text-red-400 hover:text-rose-300"
+                >
+                  Portfolio Link
+                </Link>
+              </div>
+            }
+          />
+        </div>
       </div>
     </section>
   );
