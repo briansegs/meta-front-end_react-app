@@ -1,11 +1,27 @@
 import InfoCard from "../components/InfoCard";
+import { Link } from "react-router-dom";
 
-const ideaList = [
-  "1. Study content",
-  "2. Practice through simple examples",
-  "3. Test full understanding by making projects",
-  "4. Repeat",
+const favList = [
+  {
+    name: "Portfolio project (HTML and CSS)",
+    path: "/html-and-css-in-depth/project-portfolio",
+  },
+  {
+    name: "Calculator App",
+    path: "/react-basics/calculator-app",
+  },
+  {
+    name: "Practice: Putting it together",
+    path: "/advanced-react/practice-putting-it-together",
+  },
+  {
+    name: "Portfolio (Advanced React)",
+    path: "/advanced-react/lab-create-portfolio",
+  },
 ];
+
+const welcomeMessage =
+  "Welcome to my journey through Meta's Front-End Developer Certificate course! This site, developed in React, is a living portfolio showcasing my progress, challenges, and successes as I deepen my understanding of Front-End development. Throughout the course, I've applied what I've learned, and I've also explored topics beyond the curriculum, such as routing and tools like Tailwind CSS. Here, you'll find examples of labs, projects, and practice exercises, all demonstrating key concepts and techniques. Whether you're a fellow developer, a recruiter, or just curious about React, I invite you to explore and share in my learning experience.";
 
 const Home = () => {
   return (
@@ -17,34 +33,51 @@ const Home = () => {
         </h2>
       </div>
 
-      <div className="w-full flex justify-center">
+      <div className="section-styles">
         <InfoCard
-          title="Learning from doing"
+          title="Welcome"
           content={
-            <>
-              <p className="text-neutral-600 font-semibold text-xl">
-                The idea:
-              </p>
-              {ideaList.map((idea) => (
-                <p key={idea} className="text-slate-600 pl-2">
-                  {idea}
-                </p>
-              ))}
-            </>
-          }
-        />
-
-        <InfoCard
-          title="Explore"
-          content={
-            <div className="max-w-[25rem]">
+            <div className="">
               <p className="text-slate-600 text-lg leading-7">
-                Use the left sidebar to check out my course work, experiments,
-                and projects.
+                {welcomeMessage}
               </p>
             </div>
           }
         />
+
+        <div className="section-row">
+          <InfoCard
+            title="Explore"
+            content={
+              <div className="max-w-[25rem]">
+                <p className="text-slate-600 text-lg leading-7">
+                  Use the left sidebar to check out my course work, experiments,
+                  and projects.
+                </p>
+              </div>
+            }
+          />
+
+          <InfoCard
+            title="My favorites"
+            content={
+              <>
+                <p className="text-neutral-600 font-semibold text-xl">
+                  The List:
+                </p>
+                {favList.map((fav) => (
+                  <Link
+                    key={fav.name}
+                    className="text-red-400 hover:text-rose-300 pl-2"
+                    to={fav.path}
+                  >
+                    {fav.name}
+                  </Link>
+                ))}
+              </>
+            }
+          />
+        </div>
       </div>
     </section>
   );
