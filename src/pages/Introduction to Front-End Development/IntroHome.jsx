@@ -16,7 +16,7 @@ const IntroHome = () => {
         </h1>
       </div>
 
-      <div className="w-full flex justify-center">
+      <div className="section-styles">
         <InfoCard
           title="First steps"
           content={

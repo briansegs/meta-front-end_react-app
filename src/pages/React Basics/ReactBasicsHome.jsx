@@ -8,7 +8,7 @@ const ReactBasicsHome = () => {
         <h1 className="text-3xl font-medium text-slate-600">React Basics</h1>
       </div>
 
-      <div className="w-full flex justify-center">
+      <div className="section-styles">
         <InfoCard
           title="Final Project"
           content={

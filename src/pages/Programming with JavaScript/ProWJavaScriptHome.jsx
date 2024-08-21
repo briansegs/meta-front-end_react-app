@@ -9,11 +9,11 @@ const ProWJavaScriptHome = () => {
         </h1>
       </div>
 
-      <div className="w-full flex justify-center">
+      <div className="section-styles">
         <InfoCard
           title="Page Info"
           content={
-            <div className="max-w-[30rem]">
+            <div className="max-w-[40rem]">
               <p className="text-neutral-600 font-semibold text-xl">Info:</p>
               <p className="text-slate-600 pl-2 pb-4">
                 The content of this section doesn't have a visual output which
