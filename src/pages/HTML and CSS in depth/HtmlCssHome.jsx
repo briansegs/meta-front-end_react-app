@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import InfoCard from "../../components/InfoCard";
 import certDlHtmlAndCss from "../../assets/certs/Coursera HTML and CSS in depth.pdf";
 import certHtmlAndCss from "../../assets/certs/certHtmlAndCss.png";
+import { ScrollTopOutlet } from "../../util";
 
 const learningList = [
   "1. Advanced HTML elements",
@@ -51,8 +52,9 @@ const HtmlCssHome = () => {
                 <Link
                   to="/html-and-css-in-depth/project-portfolio"
                   className="pl-2 text-red-400 hover:text-rose-300"
+                  onClick={ScrollTopOutlet}
                 >
-                  Portfolio Link
+                  Portfolio
                 </Link>
               </div>
             }

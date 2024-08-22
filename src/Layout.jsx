@@ -11,7 +11,7 @@ const Layout = () => {
 
         <div className="flex flex-1">
           <Nav />
-          <div className="w-full outlet-height custom-scrollbar">
+          <div id="outlet" className="w-full outlet-height custom-scrollbar">
             <Outlet />
           </div>
         </div>

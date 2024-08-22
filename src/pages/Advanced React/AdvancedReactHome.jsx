@@ -2,6 +2,7 @@ import InfoCard from "../../components/InfoCard";
 import certAdvancedReact from "../../assets/certs/certAdvancedReact.png";
 import certDlAdvancedReact from "../../assets/certs/Coursera Advanced React.pdf";
 import { Link } from "react-router-dom";
+import { ScrollTopOutlet } from "../../util";
 
 const learningList = [
   "1. Context Api for global State",
@@ -51,8 +52,9 @@ const AdvancedReactHome = () => {
                 <Link
                   to="/advanced-react/lab-create-portfolio"
                   className="pl-2 text-red-400 hover:text-rose-300"
+                  onClick={ScrollTopOutlet}
                 >
-                  Portfolio Link
+                  Portfolio
                 </Link>
               </div>
             }

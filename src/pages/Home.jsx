@@ -1,5 +1,6 @@
 import InfoCard from "../components/InfoCard";
 import { Link } from "react-router-dom";
+import { ScrollTopOutlet } from "../util";
 
 const favList = [
   {
@@ -70,6 +71,7 @@ const Home = () => {
                     key={fav.name}
                     className="text-red-400 hover:text-rose-300 pl-2"
                     to={fav.path}
+                    onClick={ScrollTopOutlet}
                   >
                     {fav.name}
                   </Link>
