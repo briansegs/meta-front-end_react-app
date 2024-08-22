@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import InfoCard from "../../components/InfoCard";
+import certDlReactBasics from "../../assets/certs/Coursera React Basics.pdf";
+import certReactBasics from "../../assets/certs/certReactBasics.png";
 
 const ReactBasicsHome = () => {
   return (
@@ -9,6 +11,10 @@ const ReactBasicsHome = () => {
       </div>
 
       <div className="section-styles">
+        <a href={certDlReactBasics} download="Brian React Basics">
+          <img alt="Certificate React Basics" src={certReactBasics} />
+        </a>
+
         <InfoCard
           title="Final Project"
           content={

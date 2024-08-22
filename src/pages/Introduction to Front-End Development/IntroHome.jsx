@@ -1,4 +1,6 @@
 import InfoCard from "../../components/InfoCard";
+import certDlIntroToFrontEnd from "../../assets/certs/Coursera Introduction to Front-End Development.pdf";
+import certIntroToFrontEnd from "../../assets/certs/certIntroToFrontEnd.png";
 
 const learningList = [
   "1. HTML",
@@ -17,6 +19,13 @@ const IntroHome = () => {
       </div>
 
       <div className="section-styles">
+        <a
+          href={certDlIntroToFrontEnd}
+          download="Brian Intro To Front-End Development"
+        >
+          <img alt="Certificate Intro To Front-End" src={certIntroToFrontEnd} />
+        </a>
+
         <InfoCard
           title="First steps"
           content={

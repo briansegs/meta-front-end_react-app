@@ -1,4 +1,6 @@
 import InfoCard from "../../components/InfoCard";
+import certDLProgrammingWithJavaScript from "../../assets/certs/Coursera Programming with JavaScript.pdf";
+import certProgrammingWithJavaScript from "../../assets/certs/certProgrammingWithJavaScript.png";
 
 const ProWJavaScriptHome = () => {
   return (
@@ -10,6 +12,16 @@ const ProWJavaScriptHome = () => {
       </div>
 
       <div className="section-styles">
+        <a
+          href={certDLProgrammingWithJavaScript}
+          download="Brian Programming With JavaScript"
+        >
+          <img
+            alt="Certificate Programming With JavaScript"
+            src={certProgrammingWithJavaScript}
+          />
+        </a>
+
         <InfoCard
           title="Page Info"
           content={

@@ -1,4 +1,6 @@
 import InfoCard from "../../components/InfoCard";
+import certDLVersionControl from "../../assets/certs/Coursera Version Control.pdf";
+import certVersionControl from "../../assets/certs/certVersionControl.png";
 
 const VersionControlHome = () => {
   return (
@@ -8,6 +10,10 @@ const VersionControlHome = () => {
       </div>
 
       <div className="section-styles">
+        <a href={certDLVersionControl} download="Brian Version Control">
+          <img alt="Certificate Version Control" src={certVersionControl} />
+        </a>
+
         <InfoCard
           title="Page Info"
           content={

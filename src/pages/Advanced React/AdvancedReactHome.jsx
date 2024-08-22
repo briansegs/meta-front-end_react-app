@@ -1,6 +1,6 @@
 import InfoCard from "../../components/InfoCard";
-import cert from "../../assets/cert.png";
-import certDownload from "../../assets/Coursera Advanced React.pdf";
+import certAdvancedReact from "../../assets/certs/certAdvancedReact.png";
+import certDlAdvancedReact from "../../assets/certs/Coursera Advanced React.pdf";
 import { Link } from "react-router-dom";
 
 const learningList = [
@@ -20,8 +20,8 @@ const AdvancedReactHome = () => {
       </div>
 
       <div className="section-styles">
-        <a href={certDownload} download="Brian-Meta-certificate">
-          <img alt="cert" src={cert} className="" />
+        <a href={certDlAdvancedReact} download="Brian Advanced React">
+          <img alt="Certificate Advanced React" src={certAdvancedReact} />
         </a>
 
         <div className="section-row">

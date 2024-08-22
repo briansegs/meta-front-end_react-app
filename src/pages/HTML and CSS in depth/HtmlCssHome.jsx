@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import InfoCard from "../../components/InfoCard";
+import certDlHtmlAndCss from "../../assets/certs/Coursera HTML and CSS in depth.pdf";
+import certHtmlAndCss from "../../assets/certs/certHtmlAndCss.png";
 
 const learningList = [
   "1. Advanced HTML elements",
@@ -18,6 +20,10 @@ const HtmlCssHome = () => {
       </div>
 
       <div className="section-styles">
+        <a href={certDlHtmlAndCss} download="Brian HTML and CSS in depth">
+          <img alt="Certificate Html and Css" src={certHtmlAndCss} />
+        </a>
+
         <div className="section-row">
           <InfoCard
             title="Content and Style"
