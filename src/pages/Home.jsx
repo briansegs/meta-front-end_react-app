@@ -7,11 +7,11 @@ const favList = [
     path: "/html-and-css-in-depth/project-portfolio",
   },
   {
-    name: "Calculator App",
+    name: "Calculator App (React Basics)",
     path: "/react-basics/calculator-app",
   },
   {
-    name: "Practice: Putting it together",
+    name: "Practice: Putting it together (Advanced React)",
     path: "/advanced-react/practice-putting-it-together",
   },
   {
@@ -51,8 +51,8 @@ const Home = () => {
             content={
               <div className="max-w-[25rem]">
                 <p className="text-slate-600 text-lg leading-7">
-                  Use the left sidebar to check out my course work, experiments,
-                  and projects.
+                  Use the left sidebar ⬅️ to check out my course work,
+                  experiments, and projects.
                 </p>
               </div>
             }
