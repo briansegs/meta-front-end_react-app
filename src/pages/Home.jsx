@@ -37,7 +37,7 @@ const Home = () => {
         <InfoCard
           title="Welcome"
           content={
-            <div className="">
+            <div className="px-4">
               <p className="text-slate-600 text-lg leading-7">
                 {welcomeMessage}
               </p>
