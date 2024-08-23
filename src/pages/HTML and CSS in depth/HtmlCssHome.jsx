@@ -3,12 +3,13 @@ import InfoCard from "../../components/InfoCard";
 import certDlHtmlAndCss from "../../assets/certs/Coursera HTML and CSS in depth.pdf";
 import certHtmlAndCss from "../../assets/certs/certHtmlAndCss.png";
 import { ScrollTopOutlet } from "../../util";
+import CertButtons from "../../components/CertButtons";
 
 const learningList = [
-  "1. Advanced HTML elements",
-  "2. CSS features like animations and transitions",
-  "3. Layout",
-  "4. Design",
+  "1. Create a simple form with a responsive layout using HTML5 and CSS",
+  "2. Create a responsive layout using CSS ",
+  "3. Create a UI using Bootstrap",
+  "4. Implement debugging tools",
 ];
 
 const HtmlCssHome = () => {
@@ -21,13 +22,19 @@ const HtmlCssHome = () => {
       </div>
 
       <div className="section-styles">
-        <a href={certDlHtmlAndCss} download="Brian HTML and CSS in depth">
+        <div>
+          <CertButtons
+            pdfFile={certDlHtmlAndCss}
+            pdfName="Brian HTML and CSS in depth"
+            verifyLink="https://coursera.org/verify/C3QG28PFDMZY"
+          />
+
           <img alt="Certificate Html and Css" src={certHtmlAndCss} />
-        </a>
+        </div>
 
         <div className="section-row">
           <InfoCard
-            title="Content and Style"
+            title="What I learned"
             content={
               <>
                 <p className="text-neutral-600 font-semibold text-xl">

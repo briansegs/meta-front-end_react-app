@@ -1,12 +1,12 @@
 import InfoCard from "../../components/InfoCard";
 import certDlIntroToFrontEnd from "../../assets/certs/Coursera Introduction to Front-End Development.pdf";
 import certIntroToFrontEnd from "../../assets/certs/certIntroToFrontEnd.png";
+import CertButtons from "../../components/CertButtons";
 
 const learningList = [
-  "1. HTML",
-  "2. CSS",
-  "3. How the internet works",
-  "4. What is Front-End development",
+  "1. Distinguish between front-end, back-end, and full-stack developers.",
+  "2. The benefits of working with UI frameworks.",
+  "3. Create and style a webpage with HTML and CSS.",
 ];
 
 const IntroHome = () => {
@@ -19,23 +19,26 @@ const IntroHome = () => {
       </div>
 
       <div className="section-styles">
-        <a
-          href={certDlIntroToFrontEnd}
-          download="Brian Intro To Front-End Development"
-        >
+        <div>
+          <CertButtons
+            pdfFile={certDlIntroToFrontEnd}
+            pdfName="Brian Intro To Front-End Development"
+            verifyLink="https://coursera.org/verify/653KFEVVC77R"
+          />
+
           <img alt="Certificate Intro To Front-End" src={certIntroToFrontEnd} />
-        </a>
+        </div>
 
         <InfoCard
-          title="First steps"
+          title="What I learned"
           content={
             <>
               <p className="text-neutral-600 font-semibold text-xl">
                 Key learnings:
               </p>
-              {learningList.map((idea) => (
-                <p key={idea} className="text-slate-600 pl-2">
-                  {idea}
+              {learningList.map((text) => (
+                <p key={text} className="text-slate-600 pl-2">
+                  {text}
                 </p>
               ))}
             </>

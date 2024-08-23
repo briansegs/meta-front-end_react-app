@@ -3,14 +3,13 @@ import certAdvancedReact from "../../assets/certs/certAdvancedReact.png";
 import certDlAdvancedReact from "../../assets/certs/Coursera Advanced React.pdf";
 import { Link } from "react-router-dom";
 import { ScrollTopOutlet } from "../../util";
+import CertButtons from "../../components/CertButtons";
 
 const learningList = [
-  "1. Context Api for global State",
-  "2. Hooks: useRef useState useEffect useReducer",
-  "3. Controlled forms",
-  "4. State managment",
-  "5. Data fetching",
-  "6. Custom Hooks",
+  "1. Create robust and reusable components with advanced techniques and learn different patterns to reuse common behavior",
+  "2. Interact with a remote server and fetch and post data via an API",
+  "3. Seamlessly test React applications with React Testing Library",
+  "4. Integrate commonly used React libraries to streamline your application development",
 ];
 
 const AdvancedReactHome = () => {
@@ -21,13 +20,19 @@ const AdvancedReactHome = () => {
       </div>
 
       <div className="section-styles">
-        <a href={certDlAdvancedReact} download="Brian Advanced React">
+        <div>
+          <CertButtons
+            pdfFile={certDlAdvancedReact}
+            pdfName="Brian Advanced React"
+            verifyLink="https://coursera.org/verify/5O52VHNTQPIL"
+          />
+
           <img alt="Certificate Advanced React" src={certAdvancedReact} />
-        </a>
+        </div>
 
         <div className="section-row">
           <InfoCard
-            title="First steps"
+            title="What I learned"
             content={
               <>
                 <p className="text-neutral-600 font-semibold text-xl">
