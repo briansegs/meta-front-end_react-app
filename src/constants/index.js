@@ -41,6 +41,7 @@ import {
   PracticeFirstTest,
   LabCreatePortfolio,
 } from "../pages/Advanced React";
+import { PrinciplesOfUxUiDesignHome } from "../pages/Principles of UX UI Design";
 
 export const pages = [
   {
@@ -279,6 +280,25 @@ export const pages = [
             name: "Lab: Create Portfolio",
             path: "advanced-react/lab-create-portfolio",
             element: <LabCreatePortfolio />,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Principles of UX/UI Design",
+    path: "principles-of-ux-ui-design",
+    folder: false,
+    element: <PrinciplesOfUxUiDesignHome />,
+    projects: [
+      {
+        name: "Week 1",
+        folder: true,
+        projects: [
+          {
+            name: "place holder...",
+            path: "principles-of-ux-ui-design",
+            element: <PrinciplesOfUxUiDesignHome />,
           },
         ],
       },
