@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import { IoMdArrowDropright, IoMdArrowDropdown } from "react-icons/io";
 
 import { pages } from "../constants";
+import { HomeButton } from "./HomeButton";
 
 const Nav = () => {
   const location = useLocation();
@@ -32,6 +33,7 @@ const Nav = () => {
     <nav className="p-8 bg-slate-50 border-r-[1px] w-96 outlet-height custom-scrollbar">
       <div>
         <div className="flex flex-col gap-4 ">
+          <HomeButton />
           {pages.map((page) => (
             <div
               className={`flex flex-col ${

@@ -1,0 +1,15 @@
+import { FaHome } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
+export const HomeButton = () => {
+  return (
+    <Link to="/">
+      <button className="text-left ml-4 flex gap-1 text-slate-700 hover:text-blue-500 group">
+        <FaHome size={25} />{" "}
+        <span className="text-lg font-medium text-transparent group-hover:text-slate-700 transition">
+          Home
+        </span>
+      </button>
+    </Link>
+  );
+};
