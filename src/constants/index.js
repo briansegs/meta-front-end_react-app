@@ -41,7 +41,10 @@ import {
   PracticeFirstTest,
   LabCreatePortfolio,
 } from "../pages/Advanced React";
-import { PrinciplesOfUxUiDesignHome } from "../pages/Principles of UX UI Design";
+import {
+  PrinciplesOfUxUiDesignHome,
+  ProjectPersona,
+} from "../pages/Principles of UX UI Design";
 
 export const pages = [
   {
@@ -296,9 +299,9 @@ export const pages = [
         folder: true,
         projects: [
           {
-            name: "place holder...",
-            path: "principles-of-ux-ui-design",
-            element: <PrinciplesOfUxUiDesignHome />,
+            name: "Project: Persona",
+            path: "principles-of-ux-ui-design/project-persona",
+            element: <ProjectPersona />,
           },
         ],
       },
