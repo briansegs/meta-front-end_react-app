@@ -38,8 +38,8 @@ const info = {
 
 const ProjectPersona = () => {
   return (
-    <section className="h-full bg-white flex justify-center">
-      <div className="bg-cyan-500 p-6 flex gap-4 size-fit mt-4">
+    <section className="h-full bg-white flex justify-center items-center">
+      <div className="bg-cyan-500 p-6 flex gap-4 size-fit">
         <div className="flex flex-col gap-4">
           <div className="bg-white px-4 py-6 rounded-md flex flex-col w-72">
             <p className="text-2xl w-full text-center">{info.name}</p>
