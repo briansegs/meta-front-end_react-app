@@ -1,14 +1,16 @@
 import { data } from "./";
 
 const PracticeEvaluationCheatSheets = () => {
-  const Item = ({ method }) => (
+  const Method = ({ method }) => (
     <div className="flex flex-col gap-4">
       <h3 className="font-semibold text-xl">{method.title}</h3>
+
       {method.rules.map((rule, index) => (
         <div key={rule.title} className="flex flex-col gap-2">
           <h4 className="font-medium text-lg">
             {`${index + 1}. ${rule.title}`}
           </h4>
+
           <p className="pl-2">{rule.description}</p>
         </div>
       ))}
@@ -24,7 +26,7 @@ const PracticeEvaluationCheatSheets = () => {
 
         <div className="flex flex-col gap-10">
           {data.map((method) => (
-            <Item key={method.title} method={method} />
+            <Method key={method.title} method={method} />
           ))}
         </div>
       </div>
