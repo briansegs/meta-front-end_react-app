@@ -44,6 +44,7 @@ import {
 import {
   PrinciplesOfUxUiDesignHome,
   ProjectPersona,
+  PracticeEvaluationCheatSheets,
 } from "../pages/Principles of UX UI Design";
 
 export const pages = [
@@ -302,6 +303,17 @@ export const pages = [
             name: "Project: Persona",
             path: "principles-of-ux-ui-design/project-persona",
             element: <ProjectPersona />,
+          },
+        ],
+      },
+      {
+        name: "Week 2",
+        folder: true,
+        projects: [
+          {
+            name: "Practice: Evaluation cheat sheets",
+            path: "principles-of-ux-ui-design/practice-evaluation-cheat-sheets",
+            element: <PracticeEvaluationCheatSheets />,
           },
         ],
       },

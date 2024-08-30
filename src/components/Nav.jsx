@@ -34,6 +34,7 @@ const Nav = () => {
       <div>
         <div className="flex flex-col gap-4 ">
           <HomeButton />
+
           {pages.map((page) => (
             <div
               className={`flex flex-col ${
