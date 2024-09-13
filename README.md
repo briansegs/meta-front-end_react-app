@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Meta Front-End Developer Certificate Living Portfolio 
+![site image]()
 
+### Demo:
+Currently in development
+
+## Table of contents
+- [About the app](#about-the-app)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Approach](#approach)
+- [Status](#status)
+- [Credits](#credits)
+
+## About the app:
+This site, developed in React, is a living portfolio showcasing my progress, challenges, and successes as I deepen my understanding of Front-End development. Throughout the course, I've applied what I've learned, and I've also explored topics beyond the curriculum, such as routing and tools like Tailwindcss. Here, you'll find examples of labs, projects, and practice exercises, all demonstrating key concepts and techniques.
+
+I wanted to practice the things I was learning from all of these courses and I didn't want to get rusty with my current skills. After feeling dissatisfied with leaving my work in repos I came up with this idea. It presents its own unique challenges such as how to organize the content, routing, and what would be a good user experience for someone who wants to see what I have been up to. It's also a fun sandbox for me to express some of my ideas and creativity.
+
+### The skills I learned after completing this project:
+- More practice with React functional components and their reusability
+- More practice with React file and folder structure
+- React routing
+- More practice with Tailwind CSS
+- More practice with Fundamental CSS properties to master flex
+- More practice with animations
+- Layout and UI/UX
+  
+## Technologies:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Components styled with [Tailwindcss](https://tailwindcss.com/)
 
-In the project directory, you can run:
+## Setup:
+Clone the project and enter its root directory.
+
+Install **Node.js** -> [Instructions](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
+
+### `npm i`
+Installs all of the project's dependencies.
 
 ### `npm start`
-
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Approach: 
+This project wasn't planned and has been developed organically. I started a basic React app and built the layout/navigation. I figured I would display different pages for the content. As I added more content, the layout/navigation changed, and how I displayed content changed. As I have more ideas and more needs/challenges I will adapt the site. Normally I have a plan and know what I want before I start a project but I like and will continue to develop this site based on need and inspiration. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Status:
+This project is in development.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Credits:
+N/A
