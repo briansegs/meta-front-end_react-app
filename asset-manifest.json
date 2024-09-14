@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/meta-front-end_react-app/static/css/main.eec4900b.css",
+    "main.js": "/meta-front-end_react-app/static/js/main.89143838.js",
+    "static/media/photo4.jpg": "/meta-front-end_react-app/static/media/photo4.4c7907d15dd9ea0be97c.jpg",
+    "static/media/photo2.jpg": "/meta-front-end_react-app/static/media/photo2.7d510936625768642967.jpg",
+    "static/media/photo3.jpg": "/meta-front-end_react-app/static/media/photo3.9a32dfac129b20149889.jpg",
+    "static/media/photo1.jpg": "/meta-front-end_react-app/static/media/photo1.76b22eb753ddc88e0626.jpg",
+    "static/media/feature2.png": "/meta-front-end_react-app/static/media/feature2.29f17d574eb2242b380e.png",
+    "static/media/colors2.png": "/meta-front-end_react-app/static/media/colors2.ee5d9f8dc76d713d6169.png",
+    "static/media/certProgrammingWithJavaScript.png": "/meta-front-end_react-app/static/media/certProgrammingWithJavaScript.080825b0d5ef9b9d9985.png",
+    "static/media/certIntroToFrontEnd.png": "/meta-front-end_react-app/static/media/certIntroToFrontEnd.5cbc99622b07438e5f51.png",
+    "static/media/certHtmlAndCss.png": "/meta-front-end_react-app/static/media/certHtmlAndCss.6913049571cd7bb9de18.png",
+    "static/media/certAdvancedReact.png": "/meta-front-end_react-app/static/media/certAdvancedReact.c27c25c78e158dbc54eb.png",
+    "static/media/certReactBasics.png": "/meta-front-end_react-app/static/media/certReactBasics.9dfa5ac76bdc2b368e78.png",
+    "static/media/certVersionControl.png": "/meta-front-end_react-app/static/media/certVersionControl.496456a78e3c25133a61.png",
+    "static/media/Coursera HTML and CSS in depth.pdf": "/meta-front-end_react-app/static/media/Coursera HTML and CSS in depth.2fdb5c570b536d7f7fbd.pdf",
+    "static/media/Coursera Programming with JavaScript.pdf": "/meta-front-end_react-app/static/media/Coursera Programming with JavaScript.859db76a435ad4c165d6.pdf",
+    "static/media/Coursera Introduction to Front-End Development.pdf": "/meta-front-end_react-app/static/media/Coursera Introduction to Front-End Development.fd5bc283c8f406c6d746.pdf",
+    "static/media/Coursera React Basics.pdf": "/meta-front-end_react-app/static/media/Coursera React Basics.7a29bfeb294fe31117c9.pdf",
+    "static/media/Coursera Advanced React.pdf": "/meta-front-end_react-app/static/media/Coursera Advanced React.4199a7045ab8ecb34ef4.pdf",
+    "static/media/Coursera Version Control.pdf": "/meta-front-end_react-app/static/media/Coursera Version Control.52b25d140cd06d531a3e.pdf",
+    "static/media/video.mp4": "/meta-front-end_react-app/static/media/video.5ea351bef73a2819250c.mp4",
+    "static/media/logo.png": "/meta-front-end_react-app/static/media/logo.170c87dfa63f93debff7.png",
+    "static/media/Meta-Logo-1.png": "/meta-front-end_react-app/static/media/Meta-Logo-1.3c12594fcaeff39e7ead.png",
+    "static/media/Artboard 19.png": "/meta-front-end_react-app/static/media/Artboard 19.d48dbc3dc5b61d014fc0.png",
+    "static/media/Artboard 1.png": "/meta-front-end_react-app/static/media/Artboard 1.309cab7adf31e453f725.png",
+    "static/media/react.svg": "/meta-front-end_react-app/static/media/react.6d4dd5dfc6163bdfcfe520bd6bef1a6a.svg",
+    "index.html": "/meta-front-end_react-app/index.html",
+    "main.eec4900b.css.map": "/meta-front-end_react-app/static/css/main.eec4900b.css.map",
+    "main.89143838.js.map": "/meta-front-end_react-app/static/js/main.89143838.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eec4900b.css",
+    "static/js/main.89143838.js"
+  ]
+}
