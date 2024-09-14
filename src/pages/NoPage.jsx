@@ -12,7 +12,7 @@ const NoPage = () => {
 
         <Link
           className="border-2 text-xl mb-2 bg-black text-white px-4 py-2 rounded-xl hover:text-black hover:border-gray-300 hover:bg-gray-100"
-          to={"/meta-front-end_react-app"}
+          to={"/meta-front-end_react-app/"}
         >
           Go home
         </Link>

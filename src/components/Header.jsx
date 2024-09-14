@@ -6,7 +6,7 @@ export const Header = () => {
     <header className="px-8 py-4 border-b-[1px]">
       <div>
         <Link
-          to={"/meta-front-end_react-app"}
+          to={"/meta-front-end_react-app/"}
           className="flex items-center gap-1"
         >
           <img
