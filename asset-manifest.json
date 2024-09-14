@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/meta-front-end_react-app/static/css/main.30d8e5d4.css",
-    "main.js": "/meta-front-end_react-app/static/js/main.886c5a41.js",
+    "main.css": "/meta-front-end_react-app/static/css/main.eec4900b.css",
+    "main.js": "/meta-front-end_react-app/static/js/main.caec64d5.js",
     "static/media/photo4.jpg": "/meta-front-end_react-app/static/media/photo4.4c7907d15dd9ea0be97c.jpg",
     "static/media/photo2.jpg": "/meta-front-end_react-app/static/media/photo2.7d510936625768642967.jpg",
     "static/media/photo3.jpg": "/meta-front-end_react-app/static/media/photo3.9a32dfac129b20149889.jpg",
@@ -27,11 +27,11 @@
     "static/media/Artboard 1.png": "/meta-front-end_react-app/static/media/Artboard 1.309cab7adf31e453f725.png",
     "static/media/react.svg": "/meta-front-end_react-app/static/media/react.6d4dd5dfc6163bdfcfe520bd6bef1a6a.svg",
     "index.html": "/meta-front-end_react-app/index.html",
-    "main.30d8e5d4.css.map": "/meta-front-end_react-app/static/css/main.30d8e5d4.css.map",
-    "main.886c5a41.js.map": "/meta-front-end_react-app/static/js/main.886c5a41.js.map"
+    "main.eec4900b.css.map": "/meta-front-end_react-app/static/css/main.eec4900b.css.map",
+    "main.caec64d5.js.map": "/meta-front-end_react-app/static/js/main.caec64d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.30d8e5d4.css",
-    "static/js/main.886c5a41.js"
+    "static/css/main.eec4900b.css",
+    "static/js/main.caec64d5.js"
   ]
 }
