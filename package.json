@@ -1,5 +1,6 @@
 {
   "name": "meta-front-end_react-app",
+  "jest": "--runInBand --detectOpenHandles --forceExit",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://briansegs.github.io/meta-front-end_react-app",
