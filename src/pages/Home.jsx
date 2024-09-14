@@ -32,6 +32,7 @@ const Home = () => {
         <h2 className="text-4xl font-bold text-slate-800 bg-white/30 py-2 px-4 rounded-lg mb-2">
           Developing skills - Gaining knowledge
         </h2>
+        <p className="text-3xl text-rose-600">Test</p>
       </div>
 
       <div className="section-styles">
