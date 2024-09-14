@@ -2,7 +2,7 @@
   "name": "meta-front-end_react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://briansegs.github.io/meta-front-end_react-app",
+  "homepage": "https://briansegs.github.io/meta-front-end_react-app/",
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
     "@emotion/react": "^11.10.4",
