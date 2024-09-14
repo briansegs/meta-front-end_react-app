@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/meta-front-end_react-app" element={<Layout />}>
+        <Route path="/meta-front-end_react-app/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="*" element={<NoPage />} />
           {pages.map((page) => (
