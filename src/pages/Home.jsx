@@ -5,19 +5,19 @@ import { ScrollTopOutlet } from "../util";
 const favList = [
   {
     name: "Portfolio project (HTML and CSS)",
-    path: "/html-and-css-in-depth/project-portfolio",
+    path: "/meta-front-end_react-app/html-and-css-in-depth/project-portfolio",
   },
   {
     name: "Calculator App (React Basics)",
-    path: "/react-basics/calculator-app",
+    path: "/meta-front-end_react-app/react-basics/calculator-app",
   },
   {
     name: "Practice: Putting it together (Advanced React)",
-    path: "/advanced-react/practice-putting-it-together",
+    path: "/meta-front-end_react-app/advanced-react/practice-putting-it-together",
   },
   {
     name: "Portfolio (Advanced React)",
-    path: "/advanced-react/lab-create-portfolio",
+    path: "/meta-front-end_react-app/advanced-react/lab-create-portfolio",
   },
 ];
 

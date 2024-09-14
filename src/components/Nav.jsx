@@ -38,22 +38,27 @@ const Nav = () => {
           {pages.map((page) => (
             <div
               className={`flex flex-col ${
-                location.pathname.startsWith("/" + page.path) &&
-                "border-l-[1px]"
+                location.pathname.startsWith(
+                  "/meta-front-end_react-app/" + page.path
+                ) && "border-l-[1px]"
               }`}
             >
               <Link
                 className={`rounded-e-md px-4 py-2 from-blue-400 to-cyan-300 ${
-                  location.pathname.startsWith("/" + page.path)
+                  location.pathname.startsWith(
+                    "/meta-front-end_react-app/" + page.path
+                  )
                     ? "font-semibold text-white bg-gradient-to-r"
                     : "text-neutral-600"
                 } `}
                 key={page.name}
-                to={`/${page.path}`}
+                to={`/meta-front-end_react-app/${page.path}`}
               >
                 {page.name}
               </Link>
-              {location.pathname.startsWith("/" + page.path) && (
+              {location.pathname.startsWith(
+                "/meta-front-end_react-app/" + page.path
+              ) && (
                 <div className="flex flex-col items-start">
                   {page.projects.map((project) =>
                     project.folder ? (
@@ -81,9 +86,10 @@ const Nav = () => {
                           project.projects.map((project) => (
                             <Link
                               key={project.name}
-                              to={`/${project.path}`}
+                              to={`/meta-front-end_react-app/${project.path}`}
                               className={`text-sm py-[6px] w-full px-4  border-l-[2px] from-slate-100 to-slate-50 ${
-                                location.pathname === "/" + project.path
+                                location.pathname ===
+                                "/meta-front-end_react-app/" + project.path
                                   ? "bg-gradient-to-r text-slate-800 border-blue-400 font-medium"
                                   : "border-slate-50 text-slate-600"
                               }`}
@@ -95,9 +101,10 @@ const Nav = () => {
                     ) : (
                       <Link
                         key={project.name}
-                        to={`/${project.path}`}
+                        to={`/meta-front-end_react-app/${project.path}`}
                         className={`text-sm py-[6px] w-full px-4  border-l-[2px] from-slate-100 to-slate-50 ${
-                          location.pathname === "/" + project.path
+                          location.pathname ===
+                          "/meta-front-end_react-app/" + project.path
                             ? "bg-gradient-to-r text-slate-800 border-blue-400 font-medium"
                             : "border-slate-50 text-slate-600"
                         }`}

@@ -5,7 +5,10 @@ export const Header = () => {
   return (
     <header className="px-8 py-4 border-b-[1px]">
       <div>
-        <Link to={"/"} className="flex items-center gap-1">
+        <Link
+          to={"/meta-front-end_react-app"}
+          className="flex items-center gap-1"
+        >
           <img
             src={logo}
             alt="meta logo"
